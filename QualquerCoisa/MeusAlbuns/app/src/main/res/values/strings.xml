@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Meus Albuns</string>
+    <string name="banda">Banda</string>
+    <string name="album">Álbum</string>
+    <string name="genero">Gênero</string>
+    <string name="lancamento">Lançamento</string>
+    <string name="salvar">Salvar</string>
+    <string name="excluir_album">Excluir álbum</string>
+    <string name="confirma_exclusao">Confirma a Exclusão?</string>
+    <string name="excluir">Excluir</string>
+    <string name="cancelar">Cancelar</string>
+</resources>

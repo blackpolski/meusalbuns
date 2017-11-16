@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".views.AddAlbumActivity">
+
+<EditText
+    android:id="@+id/idBanda"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:ems="10"
+    android:hint="@string/banda"
+    android:inputType="textPersonName"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<EditText
+    android:id="@+id/idAlbum"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:ems="10"
+    android:hint="@string/album"
+    android:inputType="textPersonName"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/idBanda" />
+
+<EditText
+    android:id="@+id/idGenero"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:ems="10"
+    android:hint="@string/genero"
+    android:inputType="textPersonName"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/idAlbum" />
+
+<EditText
+    android:id="@+id/idLancamento"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:ems="10"
+    android:hint="@string/lancamento"
+    android:inputType="textPersonName"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/idGenero" />
+
+
+<Button
+    android:id="@+id/btnSalvar"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="33dp"
+    android:layout_marginLeft="96dp"
+    android:layout_marginRight="96dp"
+    android:text="@string/salvar"
+    android:onClick="onSalvar"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>
